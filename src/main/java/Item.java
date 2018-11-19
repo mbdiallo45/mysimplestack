@@ -1,15 +1,17 @@
+/**
+ * class item
+ */
 public class Item {
+    /**
+     * attribut
+     */
     private Object value;
 
-    Item( Object v ){
+    /**
+     *
+     * @param 'v'
+     */
+    Item(final Object v) {
         value = v;
-    }
-
-    public Object getValue(){
-        return value;
-    }
-
-    public void setValue(Object v) {
-        this.value = v;
     }
 }
