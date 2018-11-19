@@ -17,14 +17,6 @@ public class SimpleStackImplTest {
     }
 
     @Test
-    public void isEmpty() {
-    }
-
-    @Test
-    public void getSize() {
-    }
-
-    @Test
     public void push() {
         //  Setup  the "state of the  world"
         SimpleStack  stack = new SimpleStackImpl ();
@@ -37,10 +29,7 @@ public class SimpleStackImplTest {
         assertSame("Pushed  itm  should  be on top of  stack", item ,stack.peek ());
     }
 
-    @Test
-    public void peek() {
 
-    }
 
     @Test(expected = EmptyStackException.class)
     public void pop() {
